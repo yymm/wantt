@@ -1,0 +1,42 @@
+.App {
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.dark {
+  background-color: white;
+  color: #282c34;
+}
+
+.dark {
+  background-color: #282c34;
+  color: white;
+}
+
+.App-header {
+  min-height: 100vh;
+  .App-title {
+    margin: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(24px + 2vmin);
+    font-weight: bold;
+  }
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.App-switch {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
